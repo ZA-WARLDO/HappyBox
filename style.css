@@ -1,0 +1,67 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    color:black;
+}
+
+
+.header
+{
+    height: 200px;
+    background: url(Fried\ Chicken.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+h1.h2
+{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.header h1{
+   border: 5px, solid white;
+   padding: 15px 50px ;
+}
+
+.menu
+{
+    margin: auto;
+    width: 80%;
+   
+    border: 1px solid black;
+    padding: 50px, 20px;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column
+{
+    width: 40%;
+}
+
+.full-width
+{
+    width: 100%;
+}
+
+.price
+{
+    text-align: right;
+}
